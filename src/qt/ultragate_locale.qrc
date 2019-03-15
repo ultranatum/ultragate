@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ultragate_bg.qm</file>
+        <file alias="ca">locale/ultragate_ca.qm</file>
+        <file alias="cs">locale/ultragate_cs.qm</file>
+        <file alias="da">locale/ultragate_da.qm</file>
+        <file alias="de">locale/ultragate_de.qm</file>
+        <file alias="en">locale/ultragate_en.qm</file>
+        <file alias="en_US">locale/ultragate_en_US.qm</file>
+        <file alias="eo">locale/ultragate_eo.qm</file>
+        <file alias="es">locale/ultragate_es.qm</file>
+        <file alias="es_ES">locale/ultragate_es_ES.qm</file>
+        <file alias="fi">locale/ultragate_fi.qm</file>
+        <file alias="fr_FR">locale/ultragate_fr_FR.qm</file>
+        <file alias="hi_IN">locale/ultragate_hi_IN.qm</file>
+        <file alias="hr">locale/ultragate_hr.qm</file>
+        <file alias="hr_HR">locale/ultragate_hr_HR.qm</file>
+        <file alias="it">locale/ultragate_it.qm</file>
+        <file alias="ja">locale/ultragate_ja.qm</file>
+        <file alias="ko_KR">locale/ultragate_ko_KR.qm</file>
+        <file alias="lt_LT">locale/ultragate_lt_LT.qm</file>
+        <file alias="nl">locale/ultragate_nl.qm</file>
+        <file alias="pl">locale/ultragate_pl.qm</file>
+        <file alias="pt">locale/ultragate_pt.qm</file>
+        <file alias="pt_BR">locale/ultragate_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ultragate_ro_RO.qm</file>
+        <file alias="ru">locale/ultragate_ru.qm</file>
+        <file alias="sk">locale/ultragate_sk.qm</file>
+        <file alias="sv">locale/ultragate_sv.qm</file>
+        <file alias="tr">locale/ultragate_tr.qm</file>
+        <file alias="uk">locale/ultragate_uk.qm</file>
+        <file alias="vi">locale/ultragate_vi.qm</file>
+        <file alias="zh_CN">locale/ultragate_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ultragate_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=UltraGate
+Comment=UltraGate P2P Cryptocurrency
+Comment[fr]=UltraGate, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=UltraGate, eşten eşe kriptografik sanal para birimi
+Exec=ultragate-qt %u
+Terminal=false
+Type=Application
+Icon=ultragate128
+MimeType=x-scheme-handler/ultragate;
+Categories=Office;Finance;

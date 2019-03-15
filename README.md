@@ -1,2 +1,1 @@
-# ultragate
-UltraGate
+# UltraGate

@@ -1,0 +1,26 @@
+# /etc/conf.d/ultragated: config file for /etc/init.d/ultragated
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ultragate/ultragate.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ultragated"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ultragated.pid"
+
+# Where to write ultragated data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ultragated"
+
+# User and group to own ultragated process
+#BITCOIND_USER="ultragate"
+#BITCOIND_GROUP="ultragate"
+
+# Path to ultragated executable
+#BITCOIND_BIN="/usr/bin/ultragated"
+
+# Nice value to run ultragated under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

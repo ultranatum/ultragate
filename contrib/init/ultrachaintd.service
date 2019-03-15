@@ -1,0 +1,26 @@
+[Unit]
+Description=UltraGate's distributed currency daemon
+After=network.target
+
+[Service]
+User=ultragate
+Group=ultragate
+
+Type=forking
+PIDFile=/var/lib/ultragated/ultragated.pid
+
+ExecStart=/usr/bin/ultragated -daemon -pid=/var/lib/ultragated/ultragated.pid \
+          -conf=/etc/ultragate/ultragate.conf -datadir=/var/lib/ultragated
+
+ExecStop=-/usr/bin/ultragate-cli -conf=/etc/ultragate/ultragate.conf \
+         -datadir=/var/lib/ultragated stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
