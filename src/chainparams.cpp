@@ -177,6 +177,7 @@ public:
         vSeeds.push_back(CDNSSeedData("seed3.ultragate.online", "seed3.ultragate.online")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed4.ultragate.online", "seed4.ultragate.online")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed5.ultragate.online", "seed5.ultragate.online")); // Single node address
+        vSeeds.push_back(CDNSSeedData("explorer.ultragate.online", "explorer.ultragate.online")); // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 38);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 98);
