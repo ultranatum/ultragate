@@ -533,7 +533,7 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
 
     std::string strPayeesPossible = "";
 
-    CAmount nReward = GetBlockValue(nBlockHeight);
+    CAmount nReward = GetBlockValue(nBlockHeight+1);
 
     if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) {
         // Get a stable number of masternodes by ignoring newly activated (< 8000 sec old) masternodes
@@ -546,7 +546,7 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
         nMasternode_Drift_Count = mnodeman.size() + Params().MasternodeCountDrift();
     }
 
-    CAmount requiredMasternodePayment = GetMasternodePayment(nBlockHeight, nReward, nMasternode_Drift_Count);
+    CAmount requiredMasternodePayment = GetMasternodePayment(nBlockHeight + 1, nReward, nMasternode_Drift_Count);
 
     //require at least 6 signatures
     BOOST_FOREACH (CMasternodePayee& payee, vecPayments)
@@ -560,11 +560,12 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
         bool found = false;
         BOOST_FOREACH (CTxOut out, txNew.vout) {
             if (payee.scriptPubKey == out.scriptPubKey) {
-                if (nBlockHeight <= 410 && out.nValue <= requiredMasternodePayment) {
+                /* if (nBlockHeight <= 43110 && out.nValue <= requiredMasternodePayment) {
                     found = true;
-					if (fDebug)
+					 if (fDebug)
                         LogPrintf("Masternode payment was made successfully. Paid=%s Max=%s Blocks=%s Reward=%s\n", FormatMoney(out.nValue).c_str(), FormatMoney(requiredMasternodePayment).c_str(), nBlockHeight, FormatMoney(nReward).c_str());
-                } else if(out.nValue >= requiredMasternodePayment) {
+                } else  */
+				if(out.nValue >= requiredMasternodePayment) {
                     found = true;
 					if (fDebug)
                         LogPrintf("Masternode payment was made successfully. Paid=%s Min=%s Blocks=%s Reward=%s\n", FormatMoney(out.nValue).c_str(), FormatMoney(requiredMasternodePayment).c_str(), nBlockHeight, FormatMoney(nReward).c_str());
