@@ -58,26 +58,26 @@ struct CNodeStateStats;
 
 inline int64_t GetMNCollateral(int nHeight) {
 
-	if (nHeight < 45000) {
+	if (nHeight < 48000) {
 		return 1000;
-	} else if (nHeight >= 45000 && nHeight < 65000) {
+	} else if (nHeight >= 48000 && nHeight < 68000) {
 		return 2500;
-	} else if (nHeight >= 65000 && nHeight < 95000) {
+	} else if (nHeight >= 68000 && nHeight < 98000) {
 		return 4000;
-	} else if (nHeight >= 95000) {
+	} else if (nHeight >= 98000) {
 		return 50000;
 	}
 }
 
 inline int64_t GetMNCollateralOld(int nHeight) {
 
-	if (nHeight < 46500) {
+	if (nHeight < 49500) {
 		return 1000;
-	} else if (nHeight >= 46500 && nHeight < 66500) {
+	} else if (nHeight >= 49500 && nHeight < 69500) {
 		return 2500;
-	} else if (nHeight >= 66500 && nHeight < 96500) {
+	} else if (nHeight >= 69500 && nHeight < 99500) {
 		return 4000;
-	} else if (nHeight >= 96500) {
+	} else if (nHeight >= 99500) {
 		return 50000;
 	}
 }
