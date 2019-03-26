@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/UltraGate-Project/ultragate.git
-        cd UltraGate
+        git clone https://github.com/Ultragate-Project/ultragate.git
+        cd Ultragate
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
@@ -97,7 +97,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the UltraGate-Qt.app
+Once dependencies are compiled, see release-process.md for how the Ultragate-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -109,14 +109,14 @@ directory. We have to first create the RPC configuration file, though.
 Run `./ultragated` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=ultragaterpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/UltraGate/ultragate.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/UltraGate/ultragate.conf"
+    echo -e "rpcuser=ultragaterpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Ultragate/ultragate.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Ultragate/ultragate.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/UltraGate/debug.log
+    tail -f $HOME/Library/Application\ Support/Ultragate/debug.log
 
 Other commands:
 -------

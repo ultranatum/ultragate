@@ -1,13 +1,13 @@
-UltraGate Core
+Ultragate Core
 =====================
 
 Setup
 ---------------------
-[UltraGate Core](http://ultragate.org/wallet) is the original UltraGate client and it builds the backbone of the network. However, it downloads and stores the entire history of UltraGate transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Ultragate Core](http://ultragate.org/wallet) is the original Ultragate client and it builds the backbone of the network. However, it downloads and stores the entire history of Ultragate transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run UltraGate on your native platform.
+The following are some helpful notes on how to run Ultragate on your native platform.
 
 ### Unix
 
@@ -22,19 +22,19 @@ Unpack the files into a directory, and then run ultragate-qt.exe.
 
 ### OSX
 
-Drag UltraGate-Qt to your applications folder, and then run UltraGate-Qt.
+Drag Ultragate-Qt to your applications folder, and then run Ultragate-Qt.
 
 ### Need Help?
 
-* See the documentation at the [UltraGate Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Ultragate Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [UltraGate Forum](http://forum.ultragate.org/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Ultragate Forum](http://forum.ultragate.org/).
 * Join our Discord server [Discord Server](https://discord.ultragate.org)
-* Join one of our Slack groups [UltraGate Slack Groups](https://ultragate.org/slack-logins/) (Main community is replaced by Discord).
+* Join one of our Slack groups [Ultragate Slack Groups](https://ultragate.org/slack-logins/) (Main community is replaced by Discord).
 
 Building
 ---------------------
-The following are developer notes on how to build UltraGate on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Ultragate on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -42,7 +42,7 @@ The following are developer notes on how to build UltraGate on your native platf
 
 Development
 ---------------------
-The UltraGate repo's [root README](https://github.com/UltraGate-Project/UltraGate/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Ultragate repo's [root README](https://github.com/Ultragate-Project/Ultragate/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,8 +56,8 @@ The UltraGate repo's [root README](https://github.com/UltraGate-Project/UltraGat
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [UltraGate](http://forum.ultragate.org/) forum.
-* Join the [UltraGate-Dev](https://ultragate-dev.slack.com/) Slack group ([Sign-Up](https://ultragate-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Ultragate](http://forum.ultragate.org/) forum.
+* Join the [Ultragate-Dev](https://ultragate-dev.slack.com/) Slack group ([Sign-Up](https://ultragate-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

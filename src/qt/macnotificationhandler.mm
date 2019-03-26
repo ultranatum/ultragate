@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.ultragate.UltraGate-Qt";
+        return @"io.ultragate.Ultragate-Qt";
     } else {
         return [self __bundleIdentifier];
     }

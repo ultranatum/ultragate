@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi UltraGate per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi Ultragate per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi UltraGate per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi Ultragate per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi ULG dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi ULG dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a UltraGate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo UltraGate da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a Ultragate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo Ultragate da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The UltraGate address to encrypt</source>
-        <translation>Indirizzo UltraGate da crittografare</translation>
+        <source>The Ultragate address to encrypt</source>
+        <translation>Indirizzo Ultragate da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this UltraGate address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo UltraGate</translation>
+        <source>Encrypt the private key for this Ultragate address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo Ultragate</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,12 +645,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Invia valuta all'indirizzo UltraGate</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Invia valuta all'indirizzo Ultragate</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -669,24 +669,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp;Informazioni UltraGate Core</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp;Informazioni Ultragate Core</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Visualizza informazioni su UltraGate Core</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Visualizza informazioni su Ultragate Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Modifica le opzioni di configurazione per UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Modifica le opzioni di configurazione per Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi UltraGate per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi Ultragate per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi UltraGate specifici</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Ultragate specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Apri un UltraGate: URI o richiesta di pagamento</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Apri un Ultragate: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,15 +729,15 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Mostra il messaggio di aiuto UltraGate Core per ottenere un elenco con le possibili opzioni di riga di comando UltraGate</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Mostra il messaggio di aiuto Ultragate Core per ottenere un elenco con le possibili opzioni di riga di comando Ultragate</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to UltraGate network</source>
+        <source>%n active connection(s) to Ultragate network</source>
         <translation><numerusform>%n connessione attiva alla rete ULGIX</numerusform><numerusform>%n connessioni attive alla rete ULGIX</numerusform></translation>
     </message>
     <message>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid UltraGate address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo UltraGate valido.</translation>
+        <source>The entered address "%1" is not a valid Ultragate address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo Ultragate valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UltraGate Core</source>
-        <translation>Informazioni su UltraGate Core</translation>
+        <source>About Ultragate Core</source>
+        <translation>Informazioni su Ultragate Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Benvenuto in UltraGate Core.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Benvenuto in Ultragate Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UltraGate Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove UltraGate Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ultragate Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove Ultragate Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>UltraGate Core will download and store a copy of the UltraGate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UltraGate Core scaricherà e salverà una copia della blockchain UltraGate. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>Ultragate Core will download and store a copy of the Ultragate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ultragate Core scaricherà e salverà una copia della blockchain Ultragate. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other UltraGate addresses after it matures.
-To Add: enter percentage to give and UltraGate address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Ultragate addresses after it matures.
+To Add: enter percentage to give and Ultragate address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi UltraGate fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo UltraGate da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi Ultragate fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo Ultragate da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1804,8 +1804,8 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current UltraGate balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo UltraGate corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current Ultragate balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo Ultragate corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
         <source>zULG Balance</source>
@@ -2483,8 +2483,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>L'indirizzo UltraGate per firmare il messaggio con</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>L'indirizzo Ultragate per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2507,16 +2507,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo UltraGate</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Ultragate</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>L'indirizzo UltraGate con cui è stato firmato il messaggio</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>L'indirizzo Ultragate con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo UltraGate specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Ultragate specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2554,8 +2554,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>

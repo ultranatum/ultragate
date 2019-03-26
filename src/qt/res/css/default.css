@@ -839,12 +839,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About UltraGate Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About UltraGate Contents */
+/* About Ultragate Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Ultragate Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About UltraGate text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Ultragate text */
 margin-right:10px;
 }
 
@@ -875,7 +875,7 @@ background-image: url(':/images/ultragate_logo_horizontal');
 background-repeat: no-repeat;
 }
 
-QWidget .QFrame#frame_Header { /* Header with Page-Title and UltraGate-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and Ultragate-image */
 min-width:400px;
 background-color:#ffffff;
 }

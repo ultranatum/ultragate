@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše UltraGate adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše Ultragate adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše UltraGate adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše Ultragate adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše ULG od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše ULG od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -601,12 +601,12 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Pošaljite kovanice na UltraGate adresu</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Pošaljite kovanice na Ultragate adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -625,24 +625,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp; O UltraGate Coreu</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp; O Ultragate Coreu</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Prikaz informacija o UltraGate Coreu</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Prikaz informacija o Ultragate Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Izmijenite opcije konfiguracije za UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Izmijenite opcije konfiguracije za Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim UltraGate adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim Ultragate adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim UltraGate adresama</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim Ultragate adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@
         <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Core klijent</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -751,15 +751,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1111,15 +1111,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UltraGate Core is shutting down...</source>
-        <translation>UltraGate Core se gasi...</translation>
+        <source>Ultragate Core is shutting down...</source>
+        <translation>Ultragate Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>UltraGate adresa za potpisivanje poruke s</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>Ultragate adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1142,16 +1142,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove UltraGate adrese</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove Ultragate adrese</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>UltraGate adresa s kojom je potpisana poruka</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>Ultragate adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom UltraGate adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom Ultragate adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1197,8 +1197,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Version %1</source>

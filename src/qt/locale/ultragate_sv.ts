@@ -62,12 +62,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina UltraGate adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Ultragate adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina UltraGate adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Ultragate adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ULGs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ULGs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>Enter a UltraGate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Fyll i en UltraGate Adress som du skulle vilja cryptera med BIP 38. Skriv in en lösenfras i den mittersta lådan. Tryck kryptera för att beräkna fram den krypterade privata nyckeln.</translation>
+        <source>Enter a Ultragate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Fyll i en Ultragate Adress som du skulle vilja cryptera med BIP 38. Skriv in en lösenfras i den mittersta lådan. Tryck kryptera för att beräkna fram den krypterade privata nyckeln.</translation>
     </message>
     <message>
-        <source>The UltraGate address to encrypt</source>
-        <translation>UltraGate adressen som ska krypteras</translation>
+        <source>The Ultragate address to encrypt</source>
+        <translation>Ultragate adressen som ska krypteras</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this UltraGate address</source>
-        <translation>Kryptera den privata nyckeln för denna UltraGate adressen</translation>
+        <source>Encrypt the private key for this Ultragate address</source>
+        <translation>Kryptera den privata nyckeln för denna Ultragate adressen</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,12 +645,12 @@
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Kärna</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Skicka mynt till en UltraGate adress</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Skicka mynt till en Ultragate adress</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -669,24 +669,24 @@
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>Om UltraGate Kärnan</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>Om Ultragate Kärnan</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Visa information om UltraGate Kärnan</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Visa information om Ultragate Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Ändra konfigurationsval för UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Ändra konfigurationsval för Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Signera meddelanden med din UltraGate adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Ultragate adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika UltraGate adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Ultragate adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Öppna Huvudnodens konfigurations fil </translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Öppna en UltraGate: URI eller betalningsförfrågan</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Öppna en Ultragate: URI eller betalningsförfrågan</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blockera utforskarfönstret</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Visa UltraGate Core hjälp meddelande för att få en lista med möjliga UltraGate kommandorad alternativ</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Visa Ultragate Core hjälp meddelande för att få en lista med möjliga Ultragate kommandorad alternativ</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate kärn klient</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate kärn klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to UltraGate network</source>
-        <translation><numerusform>%n aktiv(a) annslutning(ar) till UltraGate nätverket</numerusform><numerusform>%n aktiv(a) annslutning(ar) till UltraGate nätverket</numerusform></translation>
+        <source>%n active connection(s) to Ultragate network</source>
+        <translation><numerusform>%n aktiv(a) annslutning(ar) till Ultragate nätverket</numerusform><numerusform>%n aktiv(a) annslutning(ar) till Ultragate nätverket</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1185,8 +1185,8 @@ MultiSend: %1</translation>
         <translation>Redigera skickande adress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid UltraGate address.</source>
-        <translation>Den inmatade adressen "%1" är ej en giltig UltraGate adress.</translation>
+        <source>The entered address "%1" is not a valid Ultragate address.</source>
+        <translation>Den inmatade adressen "%1" är ej en giltig Ultragate adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>version</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Kärna</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Kärna</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UltraGate Core</source>
-        <translation>Om UltraGate Kärna</translation>
+        <source>About Ultragate Core</source>
+        <translation>Om Ultragate Kärna</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ MultiSend: %1</translation>
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Välkommen till UltraGate Core.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Välkommen till Ultragate Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UltraGate Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet körs så kan du välja var UltraGate Core ska spara sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ultragate Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet körs så kan du välja var Ultragate Core ska spara sin data.</translation>
     </message>
     <message>
-        <source>UltraGate Core will download and store a copy of the UltraGate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UltraGate Kärnan kommer ladda ner och spara en kopia av UltraGate block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
+        <source>Ultragate Core will download and store a copy of the Ultragate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ultragate Kärnan kommer ladda ner och spara en kopia av Ultragate block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ MultiSend: %1</translation>
         <translation>Använd en skräddarsydd data katalog</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ MultiSend: %1</translation>
         <translation>Mata in Adress att Skicka till</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other UltraGate addresses after it matures.
-To Add: enter percentage to give and UltraGate address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Ultragate addresses after it matures.
+To Add: enter percentage to give and Ultragate address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend tillåter dig att automatiskt skicka upp till 100% av dina staking eller huvudnod belöningar till en lista av andra UltraGate adresser efter att belöningarna har mognat.
-För att Lägga till: Ange procent att ge och UltraGate adress för att lägga till i MultiSend vektorn.
+        <translation>MultiSend tillåter dig att automatiskt skicka upp till 100% av dina staking eller huvudnod belöningar till en lista av andra Ultragate adresser efter att belöningarna har mognat.
+För att Lägga till: Ange procent att ge och Ultragate adress för att lägga till i MultiSend vektorn.
 För att Ta Bort: Ange adressen som ska tas bort och tryck ta bort.
 MultiSend kommer inte aktiveras om du inte tryckt på Aktivera</translation>
     </message>
@@ -1811,16 +1811,16 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Fördunkling Konfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Fördunkling sattes framgångsrikt till grundläggande (%1 och 2 rundor). Du kan ändra det här när du vill genom att öppna UltraGate's konfigurationsskärm.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Fördunkling sattes framgångsrikt till grundläggande (%1 och 2 rundor). Du kan ändra det här när du vill genom att öppna Ultragate's konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Fördunkling sattes framgångsrikt till hög (%1 och 8 rundor). Du kan ändra det här när du vill genom att öppna UltraGate's konfigurationsskärm.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Fördunkling sattes framgångsrikt till hög (%1 och 8 rundor). Du kan ändra det här när du vill genom att öppna Ultragate's konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Fördunkling sattes framgångsrikt till maximal (%1 och 16 rundor). Du kan ändra det här när du vill genom att öppna UltraGate's konfigurationsskärm.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Fördunkling sattes framgångsrikt till maximal (%1 och 16 rundor). Du kan ändra det här när du vill genom att öppna Ultragate's konfigurationsskärm.</translation>
     </message>
 </context>
 <context>
@@ -1877,8 +1877,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Om du avaktiverar spenderandet av okonfirmerad växel så kommer växeln från en transaktion &lt;br/&gt;ej kunna användas föräns transaktionen har minst en bekräftelse. &lt;br/&gt; Detta påverkar även hur ditt saldo beräknas.</translation>
     </message>
     <message>
-        <source>Automatically open the UltraGate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt UltraGate klient porten på denna router. Detta funkar endast om din router stödjer UPnP och är påslaget.</translation>
+        <source>Automatically open the Ultragate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Ultragate klient porten på denna router. Detta funkar endast om din router stödjer UPnP och är påslaget.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1893,12 +1893,12 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start UltraGate after logging in to the system.</source>
-        <translation>Starta UltraGate automatiskt efter inloggning på systemet.</translation>
+        <source>Automatically start Ultragate after logging in to the system.</source>
+        <translation>Starta Ultragate automatiskt efter inloggning på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Starta UltraGate vid systeminloggning</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Starta Ultragate vid systeminloggning</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1921,8 +1921,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UltraGate.</source>
-        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om UltraGate.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ultragate.</source>
+        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om Ultragate.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1963,8 +1963,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Staking delnings tröskel:</translation>
     </message>
     <message>
-        <source>Connect to the UltraGate network through a SOCKS5 proxy.</source>
-        <translation>Anslut till UltraGate nätverket via en SOCKS5 proxy.</translation>
+        <source>Connect to the Ultragate network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Ultragate nätverket via en SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2130,8 +2130,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Nuvarande låst saldo endast i "watch only" adresser</translation>
     </message>
     <message>
-        <source>Your current UltraGate balance, unconfirmed and immature transactions included</source>
-        <translation>Ditt nuvarande UltraGate saldo, obekräftade och omogna transaktioner är inkluderade</translation>
+        <source>Your current Ultragate balance, unconfirmed and immature transactions included</source>
+        <translation>Ditt nuvarande Ultragate saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
         <source>zULG Balance</source>
@@ -2150,8 +2150,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med UltraGate nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med Ultragate nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2267,8 +2267,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i u
         <translation>Kan ej starta ultragate: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid UltraGate address or malformed URI parameters.</source>
-        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig UltraGate adress eller felproducerade URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Ultragate address or malformed URI parameters.</source>
+        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig Ultragate adress eller felproducerade URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2353,8 +2353,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i u
         <translation>Zerocoin Handlingar:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med UltraGate nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med Ultragate nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2477,8 +2477,8 @@ zULG är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sam
         <translation>Betala &amp;Till:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>UltraGate adress att skicka betalningen till. Skapar betalning till dig själv när den är tom.</translation>
+        <source>The Ultragate address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Ultragate adress att skicka betalningen till. Skapar betalning till dig själv när den är tom.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2905,8 +2905,8 @@ Högsta tillåtna:</translation>
         <translation>Ingen 'Betala Till' adress inmatad, skapar lokal betalning</translation>
     </message>
     <message>
-        <source>Invalid UltraGate Address</source>
-        <translation>Ogiltig UltraGate Adress</translation>
+        <source>Invalid Ultragate Address</source>
+        <translation>Ogiltig Ultragate Adress</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3007,8 +3007,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a UltraGate address (e.g. %1)</source>
-        <translation>Mata in en UltraGate adress (e.g. %1)</translation>
+        <source>Enter a Ultragate address (e.g. %1)</source>
+        <translation>Mata in en Ultragate adress (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3137,8 +3137,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the UltraGate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna UltraGate felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
+        <source>Open the Ultragate debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Ultragate felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3341,8 +3341,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the UltraGate RPC console.</source>
-        <translation>Välkommen till UltraGate RPC konsol.</translation>
+        <source>Welcome to the Ultragate RPC console.</source>
+        <translation>Välkommen till Ultragate RPC konsol.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3448,16 +3448,16 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>En valfri etikett att associera med den nya mottagaradressen.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UltraGate network.</source>
-        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, som kommer visas när förfrågan öppnas. Observera: Medelandet kommer inte skickas med betalningen över UltraGate nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ultragate network.</source>
+        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, som kommer visas när förfrågan öppnas. Observera: Medelandet kommer inte skickas med betalningen över Ultragate nätverket.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ERHÅLLA</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UltraGate network.</source>
-        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, vilket kommer visas när förfrågan öppnas.&lt;br&gt;Observera: Medelandet kommer inte skickas med betalningen över UltraGate nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Ultragate network.</source>
+        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, vilket kommer visas när förfrågan öppnas.&lt;br&gt;Observera: Medelandet kommer inte skickas med betalningen över Ultragate nätverket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3737,8 +3737,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Om 1000 uULGs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uULGs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uULGs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UltraGate transactions than the network can process.</source>
-        <translation>Att endast betala minimum avgift är okej så länge som transaktionsvolymen är mindre än rummet i blocken.&lt;br /&gt;Men var medveten om att detta kan sluta som en transaktion som aldrig blir bekräftad när det finns ett större behov av UltraGate transaktioner än nätverket kan bearbeta.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Ultragate transactions than the network can process.</source>
+        <translation>Att endast betala minimum avgift är okej så länge som transaktionsvolymen är mindre än rummet i blocken.&lt;br /&gt;Men var medveten om att detta kan sluta som en transaktion som aldrig blir bekräftad när det finns ett större behov av Ultragate transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3825,8 +3825,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Split block verktyget fungerar inte med flera adresser. Försök igen.</translation>
     </message>
     <message>
-        <source>Warning: Invalid UltraGate address</source>
-        <translation>Varning: Ogiltig UltraGate adress</translation>
+        <source>Warning: Invalid Ultragate address</source>
+        <translation>Varning: Ogiltig Ultragate adress</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3928,8 +3928,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Betala &amp;Till:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to</source>
-        <translation>UltraGate adressen att skicka betalningen till</translation>
+        <source>The Ultragate address to send the payment to</source>
+        <translation>Ultragate adressen att skicka betalningen till</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3968,8 +3968,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Medelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the UltraGate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the UltraGate network.</source>
-        <translation>Ett medelande som var bifogat till UltraGate: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom UltraGate nätverket.</translation>
+        <source>A message that was attached to the Ultragate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ultragate network.</source>
+        <translation>Ett medelande som var bifogat till Ultragate: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom Ultragate nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3995,8 +3995,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UltraGate Core is shutting down...</source>
-        <translation>UltraGate Core stängs ner...</translation>
+        <source>Ultragate Core is shutting down...</source>
+        <translation>Ultragate Core stängs ner...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4018,8 +4018,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Du kan signera meddelanden med din egna adress för att bevisa att du äger dem. Se upp för att signera något vagt, då phishing-attacker kan försöka lura dig att signera din identitet åt dom. Signera endast fullt detaljerade påståenden du går med på.</translation>
     </message>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>UltraGate adressen för signera meddelandet med</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>Ultragate adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4050,16 +4050,16 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna UltraGate adress</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Ultragate adress</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>UltraGate adressen meddelandet blev signerat med</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>Ultragate adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika UltraGate adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Ultragate adressen.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4145,8 +4145,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4161,8 +4161,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Dash Core utvecklarna</translation>
     </message>
     <message>
-        <source>The UltraGate Core developers</source>
-        <translation>UltraGate Core utvecklarna</translation>
+        <source>The Ultragate Core developers</source>
+        <translation>Ultragate Core utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4826,8 +4826,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Beräknade ackumulator kontrollstation är inte vad som sparats av block index</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. UltraGate Core is probably already running.</source>
-        <translation>Kan ej låsa in på data katalog %s. UltraGate Kärna körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ultragate Core is probably already running.</source>
+        <translation>Kan ej låsa in på data katalog %s. Ultragate Kärna körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5002,8 +5002,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Denna produkt inkluderar mjukvara utvecklad av OpenSSL Projektet för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara skriven av Eric Young och UPnP mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. UltraGate Core is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. UltraGate Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Ultragate Core is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. Ultragate Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5030,8 +5030,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Varning: -maxtxfee är sätt väldigt högt! Detta är transaktionsavgiften du kommer betala om du skickar en transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UltraGate Core will not work properly.</source>
-        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer UltraGate Core inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Ultragate Core will not work properly.</source>
+        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer Ultragate Core inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5182,8 +5182,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The UltraGate Core Developers</source>
-        <translation>Copyright (C) 2015-%i The UltraGate Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Ultragate Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Ultragate Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5270,8 +5270,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Fel vid laddning av wallet.dat: Plånbok korrupterad</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UltraGate Core</source>
-        <translation>Fel vid laddning av wallet.dat: Plånbok  kräver nyare UltraGate Kärna version</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ultragate Core</source>
+        <translation>Fel vid laddning av wallet.dat: Plånbok  kräver nyare Ultragate Kärna version</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5386,8 +5386,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. UltraGate Core is shutting down.</source>
-        <translation>Initierings renlighetscheck misslyckades. UltraGate Kärna stängs ner.</translation>
+        <source>Initialization sanity check failed. Ultragate Core is shutting down.</source>
+        <translation>Initierings renlighetscheck misslyckades. Ultragate Kärna stängs ner.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5498,8 +5498,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 </translation>
     </message>
     <message>
-        <source>Disable all UltraGate specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Avaktivera all UltraGate funktionalitet (Huvudnoder, Zerocoin, SwiftX, Budgeting) (0-1, standard: %u)</translation>
+        <source>Disable all Ultragate specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Avaktivera all Ultragate funktionalitet (Huvudnoder, Zerocoin, SwiftX, Budgeting) (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6210,8 +6210,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Plånboken är låst.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart UltraGate Core to complete</source>
-        <translation>Plånbok behöver skrivas om: starta om UltraGate Kärna för att göra klart</translation>
+        <source>Wallet needed to be rewritten: restart Ultragate Core to complete</source>
+        <translation>Plånbok behöver skrivas om: starta om Ultragate Kärna för att göra klart</translation>
     </message>
     <message>
         <source>Wallet options:</source>

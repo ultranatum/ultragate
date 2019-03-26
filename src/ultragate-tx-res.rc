@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "UltraGate"
-            VALUE "FileDescription",    "ultragate-tx (CLI UltraGate transaction editor utility)"
+            VALUE "CompanyName",        "Ultragate"
+            VALUE "FileDescription",    "ultragate-tx (CLI Ultragate transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "ultragate-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

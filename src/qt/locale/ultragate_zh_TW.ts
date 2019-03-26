@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出UltraGate幣的位址</translation>
+        <translation>選擇要匯出Ultragate幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收UltraGate幣的位址</translation>
+        <translation>選擇要接收Ultragate幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 UltraGate 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 Ultragate 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 UltraGate 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 Ultragate 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 ULG 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 ULG 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -557,12 +557,12 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>送出錢幣到 UltraGate 地址</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>送出錢幣到 Ultragate 地址</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -577,24 +577,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp;關於 UltraGate Core</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp;關於 Ultragate Core</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>顯示 UltraGate Core 相關資訊</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>顯示 Ultragate Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>修改 UltraGate 設定</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>修改 Ultragate 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>使用你的 UltraGate 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>使用你的 Ultragate 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>驗證訊息簽章與 UltraGate 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>驗證訊息簽章與 Ultragate 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -625,8 +625,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>打開UltraGate: 位址或付款請求 </translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>打開Ultragate: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -637,12 +637,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>顯示 UltraGate Core 幫助訊息以取得 UltraGate 命令列表選項</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>顯示 Ultragate Core 幫助訊息以取得 Ultragate 命令列表選項</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Core 客戶端</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -671,15 +671,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>
@@ -822,8 +822,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>對訊息簽名的 UltraGate 位址</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>對訊息簽名的 Ultragate 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -846,16 +846,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>使用簽章來證明你是該  UltraGate 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>使用簽章來證明你是該  Ultragate 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>此訊息之 UltraGate 位址已簽章於</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>此訊息之 Ultragate 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>驗證訊息以確保該  UltraGate 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>驗證訊息以確保該  Ultragate 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -893,8 +893,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>

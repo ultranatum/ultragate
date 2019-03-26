@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun UltraGate osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Ultragate osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun UltraGate osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Ultragate osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella ULGien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella ULGien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -565,12 +565,12 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Ydin</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Lähetä kolikkoja UltraGate osoitteeseen</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Lähetä kolikkoja Ultragate osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -585,24 +585,24 @@
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>UltraGate Core &amp;ytimestä</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>Ultragate Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Näytä tietoja UltraGate Ytimestä</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Näytä tietoja Ultragate Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja UltraGate:lle</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Ultragate:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä UltraGate osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Ultragate osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -633,8 +633,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Avaa UltraGate: URI tai pyydä maksua</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Avaa Ultragate: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -645,12 +645,12 @@
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Näytä UltraGate Ydin apuviesti saadaksesi lista mahdollisista UltraGate komentolinja komennoista.</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Näytä Ultragate Ydin apuviesti saadaksesi lista mahdollisista Ultragate komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Ydin asiakasohjelma</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -908,8 +908,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Ydin</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -927,12 +927,12 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Tervetuloa UltraGate Ytimeen.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Tervetuloa Ultragate Ytimeen.</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Ydin</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1129,11 +1129,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 ULG</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 UltraGate</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Ultragate</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 ULG</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 UltraGate</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Ultragate</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1141,11 +1141,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 ULG to anonymize 10000 ULG</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 ULG anonymoidaksesi 10000 UltraGate</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 ULG anonymoidaksesi 10000 Ultragate</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 ULG to anonymize 10000 ULG</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 UltraGate anonymoidaksesi 10000 UltraGate</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Ultragate anonymoidaksesi 10000 Ultragate</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1153,7 +1153,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 ULG per 10000 ULG you anonymize.</source>
-        <translation>0.1 per 10000 UltraGate, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 Ultragate, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1202,12 +1202,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start UltraGate after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä UltraGate kun kirjaudut sisään.</translation>
+        <source>Automatically start Ultragate after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Ultragate kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Aloita UltraGate järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Aloita Ultragate järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1226,12 +1226,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UltraGate.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ultragate.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the UltraGate network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä UltraGate verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Ultragate network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Ultragate verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1535,8 +1535,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the UltraGate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa UltraGate debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Ultragate debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Ultragate debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1647,8 +1647,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the UltraGate RPC console.</source>
-        <translation>Tervetuloa UltraGate RPC konsoliin.</translation>
+        <source>Welcome to the Ultragate RPC console.</source>
+        <translation>Tervetuloa Ultragate RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1686,12 +1686,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the UltraGate network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana UltraGate verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ultragate network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Ultragate verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the UltraGate network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana UltraGate  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Ultragate network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Ultragate  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1963,8 +1963,8 @@ Please check the address and try again.</source>
         <translation>Kopioi taksa</translation>
     </message>
     <message>
-        <source>Warning: Invalid UltraGate address</source>
-        <translation>Varoitus: Virheellinen UltraGate osoite</translation>
+        <source>Warning: Invalid Ultragate address</source>
+        <translation>Varoitus: Virheellinen Ultragate osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2014,8 +2014,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to</source>
-        <translation>UltraGate osoite johon maksu lähetetään</translation>
+        <source>The Ultragate address to send the payment to</source>
+        <translation>Ultragate osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2057,8 +2057,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UltraGate Core is shutting down...</source>
-        <translation>UltraGate core sammuu...</translation>
+        <source>Ultragate Core is shutting down...</source>
+        <translation>Ultragate core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2076,8 +2076,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>UltraGate osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>Ultragate osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2108,16 +2108,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän UltraGate osoitteen</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Ultragate osoitteen</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>UltraGate osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>Ultragate osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla UltraGate osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Ultragate osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2199,8 +2199,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Ydin</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2215,8 +2215,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The UltraGate Core developers</source>
-        <translation>UltraGate core kehittäjät</translation>
+        <source>The Ultragate Core developers</source>
+        <translation>Ultragate core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2568,8 +2568,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UltraGate Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version UltraGate Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ultragate Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Ultragate Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  ultragated The UltraGate core server.
+#  ultragated The Ultragate core server.
 #
 #
 # chkconfig: 345 80 20

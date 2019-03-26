@@ -14,7 +14,7 @@
  * for both ultragated and ultragate-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("UltraGate Core");
+const std::string CLIENT_NAME("Ultragate Core");
 
 /**
  * Client version number

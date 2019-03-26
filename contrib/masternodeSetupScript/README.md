@@ -1,5 +1,5 @@
-# UltraGate
-Shell script to install a UltraGate Masternode on a Linux server running Ubuntu 16.04. Use it on your own risk.
+# Ultragate
+Shell script to install a Ultragate Masternode on a Linux server running Ubuntu 16.04. Use it on your own risk.
 ***
 
 ## Installation
@@ -13,7 +13,7 @@ Wait until you request "Private Key" and paste your "masternode genkey" generate
 ## Desktop wallet setup  
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:  
-1. Open the UltraGate Desktop Wallet.  
+1. Open the Ultragate Desktop Wallet.  
 2. Go to RECEIVE and create a New Address: (Example): **MN1**  
 3. Send **3000** coins to **MN1**. You need to send all 3000 coins in one single transaction.
 4. Wait for 15 confirmations.  
@@ -57,10 +57,10 @@ ultragate-cli getinfo
 Also, if you want to check/start/stop, run one of the following commands as **root**:
 
 ```bash
-systemctl status UltraGate #To check if UltraGate service is running  
-systemctl start UltraGate #To start UltraGate service  
-systemctl stop UltraGate #To stop UltraGate service  
-systemctl is-enabled UltraGate #To check if UltraGate service is enabled on boot  
+systemctl status Ultragate #To check if Ultragate service is running  
+systemctl start Ultragate #To start Ultragate service  
+systemctl stop Ultragate #To stop Ultragate service  
+systemctl is-enabled Ultragate #To check if Ultragate service is enabled on boot  
 ```  
 ***
 

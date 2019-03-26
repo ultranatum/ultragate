@@ -8,7 +8,7 @@ COIN_CLI='ultragate-cli'
 COIN_PATH='/usr/local/bin/'
 KERN_ARCH=$(uname -m)
 COIN_RELEASE='https://api.github.com/repos/ultranatum/ultragate/releases/latest'
-COIN_NAME='UltraGate'
+COIN_NAME='Ultragate'
 COIN_PORT=32852
 RPC_PORT=32853
 

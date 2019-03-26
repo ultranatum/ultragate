@@ -110,7 +110,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a UltraGate address (e.g. %1)").arg("U1RZR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter a Ultragate address (e.g. %1)").arg("U1RZR83SQbiezrW72hjcWJtcfip5krte2Z"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -127,7 +127,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no UltraGate: URI
+    // return if URI is not valid or is no Ultragate: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -594,12 +594,12 @@ bool DHMSTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "UltraGate.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Ultragate.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for UltraGate.lnk
+    // check for Ultragate.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -712,7 +712,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a ultragate.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=UltraGate\n";
+        optionFile << "Name=Ultragate\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

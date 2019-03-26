@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše UltraGate adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše Ultragate adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše UltraGate adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše Ultragate adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše ULGy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše ULGy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -601,12 +601,12 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Odeslat platbuna UltraGate adresu</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Odeslat platbuna Ultragate adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp;O UltraGate Core</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp;O Ultragate Core</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Zobraz informace o UltraGate Core</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Zobraz informace o Ultragate Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Upravit možnosti konfigurace pro UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Upravit možnosti konfigurace pro Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší UltraGate adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší Ultragate adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými UltraGate adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Ultragate adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Otevřít UltraGate: URI nebo platební žádost</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Otevřít Ultragate: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Zobrazit UltraGate Core pomocnou zpráv pro získání seznamu možných parametrů UltraGate pro příkazy do příkazové řádky</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Zobrazit Ultragate Core pomocnou zpráv pro získání seznamu možných parametrů Ultragate pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Core klient</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid UltraGate address.</source>
-        <translation>Zadaná adresa "%1" není validní UltraGate adresa.</translation>
+        <source>The entered address "%1" is not a valid Ultragate address.</source>
+        <translation>Zadaná adresa "%1" není validní Ultragate adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1127,12 +1127,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>About UltraGate Core</source>
-        <translation>O UltraGate Core</translation>
+        <source>About Ultragate Core</source>
+        <translation>O Ultragate Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1166,16 +1166,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Vítejte v UltraGate Core.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Vítejte v Ultragate Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UltraGate Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude UltraGate Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ultragate Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Ultragate Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>UltraGate Core will download and store a copy of the UltraGate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UltraGate Core stáhne a uloží kopii UltraGate blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Ultragate Core will download and store a copy of the Ultragate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ultragate Core stáhne a uloží kopii Ultragate blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1186,8 +1186,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1550,12 +1550,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start UltraGate after logging in to the system.</source>
-        <translation>Automaticky spustit UltraGate po přihlášení do systému</translation>
+        <source>Automatically start Ultragate after logging in to the system.</source>
+        <translation>Automaticky spustit Ultragate po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Spusti UltraGate při přihlášení do systému</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Spusti Ultragate při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2212,8 +2212,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>UltraGate adresa pro podepsání zprávy</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>Ultragate adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2240,16 +2240,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto UltraGate adresu</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Ultragate adresu</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>UltraGate adresa zprávy byla podpsána</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>Ultragate adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou UltraGate adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Ultragate adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2291,8 +2291,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     </context>
 <context>

@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços UltraGate para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Ultragate para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços UltraGate para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Ultragate para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas ULGs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas ULGs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,7 +254,7 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a UltraGate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Ultragate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -613,12 +613,12 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Enviar moedas para um endereço UltraGate</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Enviar moedas para um endereço Ultragate</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -637,24 +637,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp;Sobre o UltraGate Core</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp;Sobre o Ultragate Core</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Mostra informação sobre o UltraGate Core</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Mostra informação sobre o Ultragate Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Modificar opções de configuração para UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Modificar opções de configuração para Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços UltraGate para provar que você os detém</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Ultragate para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços UltraGate especificados</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Ultragate especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Abrir um UltraGate: URI ou requisição de pagamento</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Abrir um Ultragate: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -697,12 +697,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Mostra a ajuda da UltraGate Core para receber uma lista com possíveis opções de linha de comando UltraGate</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Mostra a ajuda da Ultragate Core para receber uma lista com possíveis opções de linha de comando Ultragate</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>Cliente Core UltraGate</translation>
+        <source>Ultragate Core client</source>
+        <translation>Cliente Core Ultragate</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid UltraGate address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de UltraGate</translation>
+        <source>The entered address "%1" is not a valid Ultragate address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Ultragate</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1164,16 +1164,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About UltraGate Core</source>
-        <translation>Sobre o UltraGate Core</translation>
+        <source>About Ultragate Core</source>
+        <translation>Sobre o Ultragate Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1215,16 +1215,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Bem-vindo ao UltraGate Core.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Bem-vindo ao Ultragate Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UltraGate Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde UltraGate Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ultragate Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Ultragate Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>UltraGate Core will download and store a copy of the UltraGate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UltraGate Core vai baixar e armazenar uma cópia da blockchain UltraGate. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Ultragate Core will download and store a copy of the Ultragate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ultragate Core vai baixar e armazenar uma cópia da blockchain Ultragate. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1235,8 +1235,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1606,16 +1606,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela UltraGate's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Ultragate's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela UltraGate's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Ultragate's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening UltraGate's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela UltraGate's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Ultragate's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Ultragate's.</translation>
     </message>
 </context>
 <context>
@@ -1668,8 +1668,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the UltraGate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente UltraGate no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the Ultragate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Ultragate no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1688,12 +1688,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start UltraGate after logging in to the system.</source>
-        <translation>Iniciar automaticamente UltraGate depois de logar no sistema.</translation>
+        <source>Automatically start Ultragate after logging in to the system.</source>
+        <translation>Iniciar automaticamente Ultragate depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Iniciar UltraGate ao logar no sistema</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Iniciar Ultragate ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1708,8 +1708,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UltraGate.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do UltraGate.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ultragate.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Ultragate.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1718,8 +1718,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</source>
 https://www.transifex.com/ultranatum/ultranatum-translations</translation>
     </message>
     <message>
-        <source>Connect to the UltraGate network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede UltraGate através de um proxy SOCKS5</translation>
+        <source>Connect to the Ultragate network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede Ultragate através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1853,8 +1853,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede UltraGate após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Ultragate após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1950,8 +1950,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede UltraGate após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Ultragate após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1998,8 +1998,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço UltraGate para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The Ultragate address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço Ultragate para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2173,8 +2173,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a UltraGate address (e.g. %1)</source>
-        <translation>Insira um endereço UltraGate (e.g. %1)</translation>
+        <source>Enter a Ultragate address (e.g. %1)</source>
+        <translation>Insira um endereço Ultragate (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2431,8 +2431,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the UltraGate RPC console.</source>
-        <translation>Bem-vindo ao console da UltraGate RPC</translation>
+        <source>Welcome to the Ultragate RPC console.</source>
+        <translation>Bem-vindo ao console da Ultragate RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Se a taxa padrão estiver definida para 1000 uULGs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uULGs em taxa,&lt;br /&gt; pagará pelo menos 1000 uULGs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UltraGate transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de UltraGate do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Ultragate transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Ultragate do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2819,8 +2819,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Copiar troco</translation>
     </message>
     <message>
-        <source>Warning: Invalid UltraGate address</source>
-        <translation>Aviso: endereço UltraGate inválido</translation>
+        <source>Warning: Invalid Ultragate address</source>
+        <translation>Aviso: endereço Ultragate inválido</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2906,8 +2906,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to</source>
-        <translation>O endereço UltraGate para enviar o pagamento</translation>
+        <source>The Ultragate address to send the payment to</source>
+        <translation>O endereço Ultragate para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2969,8 +2969,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UltraGate Core is shutting down...</source>
-        <translation>UltraGate Core está desligando...</translation>
+        <source>Ultragate Core is shutting down...</source>
+        <translation>Ultragate Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2988,8 +2988,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The UltraGate address to sign the message with</source>
-        <translation>O endereço UltraGate para assinar a mensagem</translation>
+        <source>The Ultragate address to sign the message with</source>
+        <translation>O endereço Ultragate para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3020,16 +3020,16 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço UltraGate</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Ultragate</translation>
     </message>
     <message>
-        <source>The UltraGate address the message was signed with</source>
-        <translation>O endereço UltraGate que assinou a mensagem</translation>
+        <source>The Ultragate address the message was signed with</source>
+        <translation>O endereço Ultragate que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified UltraGate address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço UltraGate especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Ultragate address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Ultragate especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3111,8 +3111,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate Core</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3127,8 +3127,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The UltraGate Core developers</source>
-        <translation>Os desenvolvedores do UltraGate Core</translation>
+        <source>The Ultragate Core developers</source>
+        <translation>Os desenvolvedores do Ultragate Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3712,8 +3712,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong UltraGate Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core UltraGate não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Ultragate Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Ultragate não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3792,8 +3792,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The UltraGate Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do UltraGate Core</translation>
+        <source>Copyright (C) 2015-%i The Ultragate Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Ultragate Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3852,8 +3852,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of UltraGate Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da UltraGate Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ultragate Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Ultragate Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4342,8 +4342,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart UltraGate Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o UltraGate Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Ultragate Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Ultragate Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

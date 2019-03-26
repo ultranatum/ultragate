@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "UltraGate"
-            VALUE "FileDescription",    "UltraGate-cli (OSS RPC client for UltraGate)"
+            VALUE "CompanyName",        "Ultragate"
+            VALUE "FileDescription",    "Ultragate-cli (OSS RPC client for Ultragate)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "ultragate-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "ultragate-cli.exe"
-            VALUE "ProductName",        "UltraGate-cli"
+            VALUE "ProductName",        "Ultragate-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

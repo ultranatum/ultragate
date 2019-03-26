@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between ultragate-cli and ultragated)
- * of a given instance of the UltraGate system.
+ * of a given instance of the Ultragate system.
  */
 class CBaseChainParams
 {

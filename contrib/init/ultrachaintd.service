@@ -1,5 +1,5 @@
 [Unit]
-Description=UltraGate's distributed currency daemon
+Description=Ultragate's distributed currency daemon
 After=network.target
 
 [Service]

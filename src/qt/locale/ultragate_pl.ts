@@ -509,12 +509,12 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>&amp;Rdzeń UltraGate</translation>
+        <source>Ultragate Core</source>
+        <translation>&amp;Rdzeń Ultragate</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Wyślij monety do adresu UltraGate</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Wyślij monety do adresu Ultragate</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -529,24 +529,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
+        <source>&amp;About Ultragate Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
+        <source>Show information about Ultragate Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Modyfikuj opcje konfiguracji UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Modyfikuj opcje konfiguracji Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami UltraGate, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Ultragate, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu UltraGate</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Ultragate</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -573,8 +573,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Otwórz UltraGate: URI i żądanie zapłaty</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Otwórz Ultragate: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -585,12 +585,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia UltraGate, aby dostać listę możliwych opcji UltraGate command-line</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Ultragate, aby dostać listę możliwych opcji Ultragate command-line</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>Rdzeń UltraGate klient</translation>
+        <source>Ultragate Core client</source>
+        <translation>Rdzeń Ultragate klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -899,8 +899,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>&amp;Rdzeń UltraGate</translation>
+        <source>Ultragate Core</source>
+        <translation>&amp;Rdzeń Ultragate</translation>
     </message>
     </context>
 <context>
@@ -914,8 +914,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>&amp;Rdzeń UltraGate</translation>
+        <source>Ultragate Core</source>
+        <translation>&amp;Rdzeń Ultragate</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1190,12 +1190,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start UltraGate after logging in to the system.</source>
-        <translation>Automatycznie uruchom UltraGate po zalogowaniu do systemu</translation>
+        <source>Automatically start Ultragate after logging in to the system.</source>
+        <translation>Automatycznie uruchom Ultragate po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Uruchom UltraGate podczas logowania do systemu</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Uruchom Ultragate podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1214,8 +1214,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UltraGate.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie UltraGate</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ultragate.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Ultragate</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1224,8 +1224,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</source>
 https://www.transifex.com/ultranatum/ultranatum-translations </translation>
     </message>
     <message>
-        <source>Connect to the UltraGate network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią UltraGate poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Ultragate network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Ultragate poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1463,8 +1463,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a UltraGate address (e.g. %1)</source>
-        <translation>Wprowadź adres UltraGate (np. %1)</translation>
+        <source>Enter a Ultragate address (e.g. %1)</source>
+        <translation>Wprowadź adres Ultragate (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1894,8 +1894,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this UltraGate address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres UltraGate jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Ultragate address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Ultragate jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1929,8 +1929,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>&amp;Rdzeń UltraGate</translation>
+        <source>Ultragate Core</source>
+        <translation>&amp;Rdzeń Ultragate</translation>
     </message>
     </context>
 <context>

@@ -62,11 +62,11 @@
         <translation>Ricevanta adresojn</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ĉi tiuj estas viaj UltraGate adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
+        <source>These are your Ultragate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ĉi tiuj estas viaj Ultragate adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
     </message>
     <message>
-        <source>These are your UltraGate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Ultragate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ĉi tiuj estas vian adreson por ricevi pagojn. Ĝi rekomendas uzi novajn ricenvantan adreson por ĉiu nova transakcio.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>UltraGate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
-        <translation>UltraGate fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn ULGs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>Ultragate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ULGs from being stolen by malware infecting your computer.</source>
+        <translation>Ultragate fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn ULGs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,11 +254,11 @@
         <translation>Adreso:</translation>
     </message>
     <message>
-        <source>Enter a UltraGate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Eniri unu UltraGate adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
+        <source>Enter a Ultragate Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Eniri unu Ultragate adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
     </message>
     <message>
-        <source>The UltraGate address to encrypt</source>
+        <source>The Ultragate address to encrypt</source>
         <translation>Adreson por ĉifri</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@
         <translation>Kopiu la aktualan subskribo al la sistemo-poŝo</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this UltraGate address</source>
-        <translation>Ĉifri la privata ŝlosilo por ĉi tiu UltraGate adreso</translation>
+        <source>Encrypt the private key for this Ultragate address</source>
+        <translation>Ĉifri la privata ŝlosilo por ĉi tiu Ultragate adreso</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,12 +645,12 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate kerno</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate kerno</translation>
     </message>
     <message>
-        <source>Send coins to a UltraGate address</source>
-        <translation>Sendu mono al UltraGate addreso</translation>
+        <source>Send coins to a Ultragate address</source>
+        <translation>Sendu mono al Ultragate addreso</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and ultragate: URIs)</source>
@@ -669,24 +669,24 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About UltraGate Core</source>
-        <translation>&amp;Pri UltraGate Kerno</translation>
+        <source>&amp;About Ultragate Core</source>
+        <translation>&amp;Pri Ultragate Kerno</translation>
     </message>
     <message>
-        <source>Show information about UltraGate Core</source>
-        <translation>Montri informon pri UltraGate Kerno</translation>
+        <source>Show information about Ultragate Core</source>
+        <translation>Montri informon pri Ultragate Kerno</translation>
     </message>
     <message>
-        <source>Modify configuration options for UltraGate</source>
-        <translation>Modifi agordajn opciojn por UltraGate</translation>
+        <source>Modify configuration options for Ultragate</source>
+        <translation>Modifi agordajn opciojn por Ultragate</translation>
     </message>
     <message>
-        <source>Sign messages with your UltraGate addresses to prove you own them</source>
-        <translation>Subskribu mesaĝo per via UltraGate adreso por pruvi vi posedas ĝin</translation>
+        <source>Sign messages with your Ultragate addresses to prove you own them</source>
+        <translation>Subskribu mesaĝo per via Ultragate adreso por pruvi vi posedas ĝin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified UltraGate addresses</source>
-        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita UltraGate adreso</translation>
+        <source>Verify messages to ensure they were signed with specified Ultragate addresses</source>
+        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita Ultragate adreso</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Malfermi mastro-nodo agord-dosieron</translation>
     </message>
     <message>
-        <source>Open a UltraGate: URI or payment request</source>
-        <translation>Malfermi unu UltraGate: URI aŭ pago peto</translation>
+        <source>Open a Ultragate: URI or payment request</source>
+        <translation>Malfermi unu Ultragate: URI aŭ pago peto</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the UltraGate Core help message to get a list with possible UltraGate command-line options</source>
-        <translation>Montri la UltraGate Kore help-mesaĝo por havi liston de havebla UltraGate komandlinion opciojn</translation>
+        <source>Show the Ultragate Core help message to get a list with possible Ultragate command-line options</source>
+        <translation>Montri la Ultragate Kore help-mesaĝo por havi liston de havebla Ultragate komandlinion opciojn</translation>
     </message>
     <message>
-        <source>UltraGate Core client</source>
-        <translation>UltraGate Kerno kliento</translation>
+        <source>Ultragate Core client</source>
+        <translation>Ultragate Kerno kliento</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to UltraGate network</source>
-        <translation><numerusform>%n aktiva ligo(j) al la UltraGate reto</numerusform><numerusform>%n aktiva ligo(j) al la UltraGate reto</numerusform></translation>
+        <source>%n active connection(s) to Ultragate network</source>
+        <translation><numerusform>%n aktiva ligo(j) al la Ultragate reto</numerusform><numerusform>%n aktiva ligo(j) al la Ultragate reto</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1177,8 +1177,8 @@ Muktisendi: %1</translation>
         <translation>Redaktu sendantan adreson</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid UltraGate address.</source>
-        <translation>La enirita "%1" adreso ne estas validan UltraGate adreson.</translation>
+        <source>The entered address "%1" is not a valid Ultragate address.</source>
+        <translation>La enirita "%1" adreso ne estas validan Ultragate adreson.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1223,16 +1223,16 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate kerno</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate kerno</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About UltraGate Core</source>
-        <translation>Pri UltraGate Kerno</translation>
+        <source>About Ultragate Core</source>
+        <translation>Pri Ultragate Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to UltraGate Core.</source>
-        <translation>Bonvenon al la UltraGate Kerno.</translation>
+        <source>Welcome to Ultragate Core.</source>
+        <translation>Bonvenon al la Ultragate Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where UltraGate Core will store its data.</source>
-        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie UltraGate kernk storigis sian datumojn. </translation>
+        <source>As this is the first time the program is launched, you can choose where Ultragate Core will store its data.</source>
+        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie Ultragate kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>UltraGate Core will download and store a copy of the UltraGate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>UltraGate kerno elŝutos kaj konservi kopion de la UltraGate blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
+        <source>Ultragate Core will download and store a copy of the Ultragate block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ultragate kerno elŝutos kaj konservi kopion de la Ultragate blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate kerno</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate kerno</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1682,8 +1682,8 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>&amp;Monujo</translation>
     </message>
     <message>
-        <source>Automatically open the UltraGate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi UltraGate klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
+        <source>Automatically open the Ultragate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi Ultragate klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1694,8 +1694,8 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>Sperta</translation>
     </message>
     <message>
-        <source>&amp;Start UltraGate on system login</source>
-        <translation>&amp;Komencu UltraGate en sistem-ensaluto</translation>
+        <source>&amp;Start Ultragate on system login</source>
+        <translation>&amp;Komencu Ultragate en sistem-ensaluto</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1706,8 +1706,8 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting UltraGate.</source>
-        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci UltraGate.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ultragate.</source>
+        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci Ultragate.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1716,8 +1716,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</source>
 https://www.transifex.com/ultranatum/ultranatum-translations</translation>
     </message>
     <message>
-        <source>Connect to the UltraGate network through a SOCKS5 proxy.</source>
-        <translation>Konekti al la UltraGate reto per SOCKS5 prokurilo.</translation>
+        <source>Connect to the Ultragate network through a SOCKS5 proxy.</source>
+        <translation>Konekti al la Ultragate reto per SOCKS5 prokurilo.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1795,8 +1795,8 @@ https://www.transifex.com/ultranatum/ultranatum-translations</translation>
         <translation>Nematura:</translation>
     </message>
     <message>
-        <source>Your current UltraGate balance, unconfirmed and immature transactions included</source>
-        <translation>Via aktuala UltraGate totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
+        <source>Your current Ultragate balance, unconfirmed and immature transactions included</source>
+        <translation>Via aktuala Ultragate totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
         <source>zULG Balance</source>
@@ -1809,8 +1809,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mintita</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la UltraGate reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la Ultragate reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1862,8 +1862,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the UltraGate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la UltraGate reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ultragate network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la Ultragate reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1918,8 +1918,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>UltraGate adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
+        <source>The Ultragate address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Ultragate adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2004,8 +2004,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Mesaĝo: eniri kvanto &gt; 0.</translation>
     </message>
     <message>
-        <source>Invalid UltraGate Address</source>
-        <translation>Nevalida UltraGate adreso</translation>
+        <source>Invalid Ultragate Address</source>
+        <translation>Nevalida Ultragate adreso</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -2101,8 +2101,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Rekonstrui indekson</translation>
     </message>
     <message>
-        <source>Welcome to the UltraGate RPC console.</source>
-        <translation>Bonvenon al la UltraGate RPC konzolo.</translation>
+        <source>Welcome to the Ultragate RPC console.</source>
+        <translation>Bonvenon al la Ultragate RPC konzolo.</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2345,8 +2345,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Kopi ŝanĝo</translation>
     </message>
     <message>
-        <source>Warning: Invalid UltraGate address</source>
-        <translation>Averto: nevalida UltraGate adreson</translation>
+        <source>Warning: Invalid Ultragate address</source>
+        <translation>Averto: nevalida Ultragate adreson</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2372,8 +2372,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The UltraGate address to send the payment to</source>
-        <translation>UltraGate adreso por sendi la pago al</translation>
+        <source>The Ultragate address to send the payment to</source>
+        <translation>Ultragate adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2407,8 +2407,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>UltraGate Core is shutting down...</source>
-        <translation>UltraGate kerno fermanta...</translation>
+        <source>Ultragate Core is shutting down...</source>
+        <translation>Ultragate kerno fermanta...</translation>
     </message>
     </context>
 <context>
@@ -2461,8 +2461,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>UltraGate Core</source>
-        <translation>UltraGate kerno</translation>
+        <source>Ultragate Core</source>
+        <translation>Ultragate kerno</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2473,8 +2473,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>La Dash kerno programistoj</translation>
     </message>
     <message>
-        <source>The UltraGate Core developers</source>
-        <translation>La UltraGate kerno programistoj</translation>
+        <source>The Ultragate Core developers</source>
+        <translation>La Ultragate kerno programistoj</translation>
     </message>
     </context>
 <context>

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "UltraGate"
-            VALUE "FileDescription",    "ultragated (OSS daemon/client for UltraGate)"
+            VALUE "CompanyName",        "Ultragate"
+            VALUE "FileDescription",    "ultragated (OSS daemon/client for Ultragate)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "ultragated"
             VALUE "LegalCopyright",     COPYRIGHT_STR

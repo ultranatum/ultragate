@@ -126,7 +126,7 @@ public:
 };
 
 /**
- * UltraGate RPC command dispatcher.
+ * Ultragate RPC command dispatcher.
  */
 class CRPCTable
 {

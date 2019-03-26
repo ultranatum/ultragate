@@ -89,10 +89,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeUltraGateAmount"))
-        settings.setValue("nAnonymizeUltraGateAmount", 1000);
+    if (!settings.contains("nAnonymizeUltragateAmount"))
+        settings.setValue("nAnonymizeUltragateAmount", 1000);
 
-    nAnonymizeUltraGateAmount = settings.value("nAnonymizeUltraGateAmount").toLongLong();
+    nAnonymizeUltragateAmount = settings.value("nAnonymizeUltragateAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -166,8 +166,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeUltraGateAmount"))
-        SoftSetArg("-anonymizeultragateamount", settings.value("nAnonymizeUltraGateAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeUltragateAmount"))
+        SoftSetArg("-anonymizeultragateamount", settings.value("nAnonymizeUltragateAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -258,8 +258,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeUltraGateAmount:
-            return QVariant(nAnonymizeUltraGateAmount);
+        case AnonymizeUltragateAmount:
+            return QVariant(nAnonymizeUltragateAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -388,10 +388,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit hideZeroBalancesChanged(fHideZeroBalances);
             break;
 
-        case AnonymizeUltraGateAmount:
-            nAnonymizeUltraGateAmount = value.toInt();
-            settings.setValue("nAnonymizeUltraGateAmount", nAnonymizeUltraGateAmount);
-            emit anonymizeUltraGateAmountChanged(nAnonymizeUltraGateAmount);
+        case AnonymizeUltragateAmount:
+            nAnonymizeUltragateAmount = value.toInt();
+            settings.setValue("nAnonymizeUltragateAmount", nAnonymizeUltragateAmount);
+            emit anonymizeUltragateAmountChanged(nAnonymizeUltragateAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

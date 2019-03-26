@@ -12,7 +12,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 5000 UltraGate input and register on the network
+// Bootup the Masternode, look for a 5000 Ultragate input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

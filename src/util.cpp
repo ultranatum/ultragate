@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// UltraGate only features
+// Ultragate only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -120,7 +120,7 @@ int nZeromintPercentage = 10;
 int nPreferredDenom = 0;
 const int64_t AUTOMINT_DELAY = (60 * 5); // Wait at least 5 minutes until Automint starts
 
-int nAnonymizeUltraGateAmount = 1000;
+int nAnonymizeUltragateAmount = 1000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
@@ -237,7 +237,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "ultragate" is a composite category enabling all UltraGate-related debug output
+            // "ultragate" is a composite category enabling all Ultragate-related debug output
             if (ptrCategory->count(string("ultragate"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
@@ -424,13 +424,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\UltraGate
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\UltraGate
-// Mac: ~/Library/Application Support/UltraGate
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Ultragate
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Ultragate
+// Mac: ~/Library/Application Support/Ultragate
 // Unix: ~/.ultragate
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "UltraGate";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Ultragate";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -442,7 +442,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "UltraGate";
+    return pathRet / "Ultragate";
 #else
     // Unix
     return pathRet / ".ultragate";

@@ -263,11 +263,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop UltraGate server.");
+            "\nStop Ultragate server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "UltraGate server stopping";
+    return "Ultragate server stopping";
 }
 
 
@@ -351,7 +351,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* UltraGate features */
+        /* Ultragate features */
         {"ultragate", "masternode", &masternode, true, true, false},
         {"ultragate", "listmasternodes", &listmasternodes, true, true, false},
         {"ultragate", "getmasternodecount", &getmasternodecount, true, true, false},
