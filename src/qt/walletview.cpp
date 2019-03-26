@@ -73,8 +73,8 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
 
     QLabel* labelOverviewHeaderRight = new QLabel(frame_Header);
     labelOverviewHeaderRight->setObjectName(QStringLiteral("labelOverviewHeaderRight"));
-    labelOverviewHeaderRight->setMinimumSize(QSize(464, 60));
-    labelOverviewHeaderRight->setMaximumSize(QSize(16777215, 60));
+    labelOverviewHeaderRight->setMinimumSize(QSize(265, 60));
+    labelOverviewHeaderRight->setMaximumSize(QSize(265, 60));
     labelOverviewHeaderRight->setText(QString());
     QFont fontHeaderRight;
     fontHeaderRight.setPointSize(14);
