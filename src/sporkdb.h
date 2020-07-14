@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_CSPORKDB_H
-#define ULTRAGATE_CSPORKDB_H
+#ifndef ULG_CSPORKDB_H
+#define ULG_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //ULTRAGATE_CSPORKDB_H
+#endif //ULG_CSPORKDB_H

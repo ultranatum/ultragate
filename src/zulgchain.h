@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_ZULGCHAIN_H
-#define ULTRAGATE_ZULGCHAIN_H
+#ifndef ULG_ZULGCHAIN_H
+#define ULG_ZULGCHAIN_H
 
 #include "libzerocoin/Coin.h"
 #include "libzerocoin/Denominations.h"
@@ -33,10 +33,10 @@ bool IsSerialInBlockchain(const CBigNum& bnSerial, int& nHeightTx);
 bool IsSerialInBlockchain(const uint256& hashSerial, int& nHeightTx, uint256& txidSpend);
 bool IsSerialInBlockchain(const uint256& hashSerial, int& nHeightTx, uint256& txidSpend, CTransaction& tx);
 bool RemoveSerialFromDB(const CBigNum& bnSerial);
-// std::string ReindexZerocoinDB();
+std::string ReindexZerocoinDB();
 libzerocoin::CoinSpend TxInToZerocoinSpend(const CTxIn& txin);
 bool TxOutToPublicCoin(const CTxOut& txout, libzerocoin::PublicCoin& pubCoin, CValidationState& state);
 std::list<libzerocoin::CoinDenomination> ZerocoinSpendListFromBlock(const CBlock& block, bool fFilterInvalid);
 
 
-#endif //ULTRAGATE_ZULGCHAIN_H
+#endif //ULG_ZULGCHAIN_H

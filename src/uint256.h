@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_UINT256_H
-#define ULTRAGATE_UINT256_H
+#ifndef ULG_UINT256_H
+#define ULG_UINT256_H
 
 #include <assert.h>
 #include <cstring>
@@ -410,4 +410,4 @@ inline uint512 uint512S(const std::string& str)
     return rv;
 }
 
-#endif // ULTRAGATE_UINT256_H
+#endif // ULG_UINT256_H

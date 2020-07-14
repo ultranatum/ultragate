@@ -1,0 +1,6 @@
+usr/local/bin/ultragate-qt usr/bin
+share/pixmaps/ultragate32.xpm usr/share/pixmaps
+share/pixmaps/ultragate16.xpm usr/share/pixmaps
+share/pixmaps/ultragate128.png usr/share/pixmaps
+debian/ultragate-qt.desktop usr/share/applications
+debian/ultragate-qt.protocol usr/share/kde4/services/

@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_INVALID_H
-#define ULTRAGATE_INVALID_H
+#ifndef ULG_INVALID_H
+#define ULG_INVALID_H
 
-#endif //ULTRAGATE_INVALID_H
+#endif //ULG_INVALID_H
 
 #include <libzerocoin/bignum.h>
 #include <univalue/include/univalue.h>

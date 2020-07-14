@@ -15,10 +15,7 @@
 
 #include "obfuscation.h"
 #include "protocol.h"
-#include <boost/lexical_cast.hpp>
 
-using namespace std;
-using namespace boost;
 
 /*
     Don't ever reuse these IDs for other sporks
@@ -116,7 +113,7 @@ public:
     int GetSporkIDByName(std::string strName);
     bool UpdateSpork(int nSporkID, int64_t nValue);
     bool SetPrivKey(std::string strPrivKey);
-    bool CheckSignature(CSporkMessage& spork, bool fCheckSigner = false);
+    bool CheckSignature(CSporkMessage& spork, bool fRequireNew = false);
     bool Sign(CSporkMessage& spork);
     void Relay(CSporkMessage& msg);
 };

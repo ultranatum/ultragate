@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_INVALID_OUTPOINTS_JSON_H
-#define ULTRAGATE_INVALID_OUTPOINTS_JSON_H
+#ifndef ULG_INVALID_OUTPOINTS_JSON_H
+#define ULG_INVALID_OUTPOINTS_JSON_H
 #include <string>
 
 std::string LoadInvalidOutPoints()
@@ -6793,4 +6793,4 @@ std::string LoadInvalidOutPoints()
     return str;
 }
 
-#endif //ULTRAGATE_INVALID_OUTPOINTS_JSON_H
+#endif //ULG_INVALID_OUTPOINTS_JSON_H

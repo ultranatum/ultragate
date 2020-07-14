@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 
 #include "base58.h"
 #include "init.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 #include "askpassphrasedialog.h"
 
 #include <string>
@@ -27,9 +27,7 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget* parent) : QDialog(pare
 {
     ui->setupUi(this);
 
-#if QT_VERSION >= 0x040700
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
-#endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);
     GUIUtil::setupAddressWidget(ui->addressIn_VM, this);

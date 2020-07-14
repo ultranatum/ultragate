@@ -1,0 +1,8 @@
+/usr/bin/ultragate-cli		--	gen_context(system_u:object_r:ultragate_exec_t,s0)
+/usr/sbin/ultragated		--	gen_context(system_u:object_r:ultragate_exec_t,s0)
+/usr/lib(64)?/ultragate/ultragated		--	gen_context(system_u:object_r:ultragate_exec_t,s0)
+
+/etc/ultragate(/.*)?		gen_context(system_u:object_r:ultragate_conf_t,s0)
+/var/lib/ultragate(/.*)?		gen_context(system_u:object_r:ultragate_var_lib_t,s0)
+
+(/var)?/run/ultragated(/.*)?   gen_context(system_u:object_r:ultragate_var_run_t,s0)

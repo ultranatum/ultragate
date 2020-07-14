@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_BLOCKSIGNATURE_H
-#define ULTRAGATE_BLOCKSIGNATURE_H
+#ifndef ULG_BLOCKSIGNATURE_H
+#define ULG_BLOCKSIGNATURE_H
 
 #include "key.h"
 #include "primitives/block.h"
@@ -13,4 +13,4 @@ bool SignBlockWithKey(CBlock& block, const CKey& key);
 bool SignBlock(CBlock& block, const CKeyStore& keystore);
 bool CheckBlockSignature(const CBlock& block);
 
-#endif //ULTRAGATE_BLOCKSIGNATURE_H
+#endif //ULG_BLOCKSIGNATURE_H

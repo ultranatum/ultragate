@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_SPENDTYPE_H
-#define ULTRAGATE_SPENDTYPE_H
+#ifndef ULG_SPENDTYPE_H
+#define ULG_SPENDTYPE_H
 
 #include <cstdint>
 
@@ -16,4 +16,4 @@ namespace libzerocoin {
     };
 }
 
-#endif //ULTRAGATE_SPENDTYPE_H
+#endif //ULG_SPENDTYPE_H

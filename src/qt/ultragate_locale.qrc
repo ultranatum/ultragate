@@ -6,6 +6,7 @@
         <file alias="da">locale/ultragate_da.qm</file>
         <file alias="de">locale/ultragate_de.qm</file>
         <file alias="en">locale/ultragate_en.qm</file>
+        <file alias="en_GB">locale/ultragate_en_GB.qm</file>
         <file alias="en_US">locale/ultragate_en_US.qm</file>
         <file alias="eo">locale/ultragate_eo.qm</file>
         <file alias="es">locale/ultragate_es.qm</file>

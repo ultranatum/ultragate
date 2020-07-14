@@ -10,6 +10,7 @@
 /* medium-purple1:     #5c4c7c (main purple for dark backgrounds)                       */
 /* medium-purple2:     #5b4c86 (sligtly darker for gradients)                           */
 /*                                                                                      */
+/* fuchsia:            #df1cca                                                          */
 /* background:         #f8f6f6                                                          */
 /* input fields:       #e7e7e7                                                          */
 /****************************************************************************************/
@@ -21,7 +22,7 @@
 /****************************************************************************************/
 
 WalletFrame {
-border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+background-color:#ffffff;
 border-top:0px solid #000;
 margin:0;
 padding:0;
@@ -199,12 +200,12 @@ background-color:#f2f2f2;
 
 .QValidatedLineEdit:!focus {
 color:#2f2f2f;
-background-color: #e7e7e7;
+background-color:#e7e7e7;
 }
 
 .QLineEdit:!focus {
 color: #2f2f2f;
-background-color: #e7e7e7;
+background-color:#e7e7e7;
 }
 
 .QTextEdit:!focus {
@@ -1303,7 +1304,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QWidget#widgetCoinControl > .Q
 padding:2px;
 }
 
-/* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QCheckBox#checkBoxCoinControlChange { /* Custom Change Label */ 
+/* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QCheckBox#checkBoxCoinControlChange { /* Custom Change Label */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange { /* Custom Change Address */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange:!focus { /* Custom Change Address */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLineEdit#splitBlockLineEdit { */
@@ -1587,7 +1588,7 @@ QLabel#transactionSumLabel { /* Example of setObjectName for widgets without nam
 color:#333333;
 font-weight:bold;
 }
- 
+
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
 color:#333333;
 }

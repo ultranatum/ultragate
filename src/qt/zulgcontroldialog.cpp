@@ -1,19 +1,25 @@
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "zulgcontroldialog.h"
 #include "ui_zulgcontroldialog.h"
 
-#include "accumulators.h"
+#include "zulg/accumulators.h"
 #include "main.h"
 #include "walletmodel.h"
 
-using namespace std;
-using namespace libzerocoin;
 
 std::set<std::string> ZUlgControlDialog::setSelectedMints;
 std::set<CMintMeta> ZUlgControlDialog::setMints;
+
+bool CZUlgControlWidgetItem::operator<(const QTreeWidgetItem &other) const {
+    int column = treeWidget()->sortColumn();
+    if (column == ZUlgControlDialog::COLUMN_DENOMINATION || column == ZUlgControlDialog::COLUMN_VERSION || column == ZUlgControlDialog::COLUMN_CONFIRMATIONS)
+        return data(column, Qt::UserRole).toLongLong() < other.data(column, Qt::UserRole).toLongLong();
+    return QTreeWidgetItem::operator<(other);
+}
+
 
 ZUlgControlDialog::ZUlgControlDialog(QWidget *parent) :
     QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
@@ -42,6 +48,7 @@ void ZUlgControlDialog::setModel(WalletModel *model)
     updateList();
 }
 
+
 //Update the tree widget
 void ZUlgControlDialog::updateList()
 {
@@ -51,9 +58,9 @@ void ZUlgControlDialog::updateList()
 
     // add a top level item for each denomination
     QFlags<Qt::ItemFlag> flgTristate = Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;
-    map<libzerocoin::CoinDenomination, int> mapDenomPosition;
+    std::map<libzerocoin::CoinDenomination, int> mapDenomPosition;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        QTreeWidgetItem* itemDenom(new QTreeWidgetItem);
+        CZUlgControlWidgetItem* itemDenom(new CZUlgControlWidgetItem);
         ui->treeWidget->addTopLevelItem(itemDenom);
 
         //keep track of where this is positioned in tree widget
@@ -61,20 +68,21 @@ void ZUlgControlDialog::updateList()
 
         itemDenom->setFlags(flgTristate);
         itemDenom->setText(COLUMN_DENOMINATION, QString::number(denom));
+        itemDenom->setData(COLUMN_DENOMINATION, Qt::UserRole, QVariant((qlonglong) denom));
     }
 
-    // select all unused coins - including not mature. Update status of coins too.
+    // select all unused coins - including not mature and mismatching seed. Update status of coins too.
     std::set<CMintMeta> set;
-    model->listZerocoinMints(set, true, false, true);
+    model->listZerocoinMints(set, true, false, true, true);
     this->setMints = set;
 
     //populate rows with mint info
     int nBestHeight = chainActive.Height();
-    map<CoinDenomination, int> mapMaturityHeight = GetMintMaturityHeight();
+    //map<CoinDenomination, int> mapMaturityHeight = GetMintMaturityHeight();
     for (const CMintMeta& mint : setMints) {
         // assign this mint to the correct denomination in the tree view
         libzerocoin::CoinDenomination denom = mint.denom;
-        QTreeWidgetItem *itemMint = new QTreeWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
+        CZUlgControlWidgetItem *itemMint = new CZUlgControlWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
 
         // if the mint is already selected, then it needs to have the checkbox checked
         std::string strPubCoinHash = mint.hashPubcoin.GetHex();
@@ -85,8 +93,10 @@ void ZUlgControlDialog::updateList()
             itemMint->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
 
         itemMint->setText(COLUMN_DENOMINATION, QString::number(mint.denom));
+        itemMint->setData(COLUMN_DENOMINATION, Qt::UserRole, QVariant((qlonglong) denom));
         itemMint->setText(COLUMN_PUBCOIN, QString::fromStdString(strPubCoinHash));
         itemMint->setText(COLUMN_VERSION, QString::number(mint.nVersion));
+        itemMint->setData(COLUMN_VERSION, Qt::UserRole, QVariant((qlonglong) mint.nVersion));
 
         int nConfirmations = (mint.nHeight ? nBestHeight - mint.nHeight : 0);
         if (nConfirmations < 0) {
@@ -95,14 +105,29 @@ void ZUlgControlDialog::updateList()
         }
 
         itemMint->setText(COLUMN_CONFIRMATIONS, QString::number(nConfirmations));
+        itemMint->setData(COLUMN_CONFIRMATIONS, Qt::UserRole, QVariant((qlonglong) nConfirmations));
+
+        {
+            LOCK(pwalletMain->zulgTracker->cs_spendcache);
+
+            CoinWitnessData *witnessData = pwalletMain->zulgTracker->GetSpendCache(mint.hashStake);
+            if (witnessData->nHeightAccStart > 0  && witnessData->nHeightAccEnd > 0) {
+                int nPercent = std::max(0, std::min(100, (int)((double)(witnessData->nHeightAccEnd - witnessData->nHeightAccStart) / (double)(nBestHeight - witnessData->nHeightAccStart - 220) * 100)));
+                QString percent = QString::number(nPercent) + QString("%");
+                itemMint->setText(COLUMN_PRECOMPUTE, percent);
+            } else {
+                itemMint->setText(COLUMN_PRECOMPUTE, QString("0%"));
+            }
+        }
 
         // check for maturity
-        bool isMature = false;
-        if (mapMaturityHeight.count(mint.denom))
-            isMature = mint.nHeight < mapMaturityHeight.at(denom);
+        // Always mature, public spends doesn't require any new accumulation.
+        bool isMature = true;
+        //if (mapMaturityHeight.count(mint.denom))
+        //    isMature = mint.nHeight < mapMaturityHeight.at(denom);
 
         // disable selecting this mint if it is not spendable - also display a reason why
-        bool fSpendable = isMature && nConfirmations >= Params().Zerocoin_MintRequiredConfirmations();
+        bool fSpendable = isMature && nConfirmations >= Params().Zerocoin_MintRequiredConfirmations() && mint.isSeedCorrect;
         if(!fSpendable) {
             itemMint->setDisabled(true);
             itemMint->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
@@ -111,9 +136,13 @@ void ZUlgControlDialog::updateList()
             if (setSelectedMints.count(strPubCoinHash))
                 setSelectedMints.erase(strPubCoinHash);
 
-            string strReason = "";
+            std::string strReason = "";
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
+            else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
+                strReason = "Your wallet is locked. Impossible to precompute or spend zULG.";
+            else if (!mint.isSeedCorrect)
+                strReason = "The zULG seed used to mint this zULG is not the same as currently hold in the wallet";
             else
                 strReason = strprintf("Needs %d more mints added to network", Params().Zerocoin_RequiredAccumulation());
 

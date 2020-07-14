@@ -4,8 +4,8 @@
 
 
 
-#ifndef ULTRAGATE_INVALID_SERIALS_JSON_H
-#define ULTRAGATE_INVALID_SERIALS_JSON_H
+#ifndef ULG_INVALID_SERIALS_JSON_H
+#define ULG_INVALID_SERIALS_JSON_H
 
 #include <string>
 
@@ -574,7 +574,7 @@ std::string LoadInvalidSerials()
             "    \"s\": \"c68cc01fcab3f41d17e79886e1f3871827aae3e0f9f4c86bae22e9af2d3c8489\"\n"
             "  },\n"
             "  {\n"
-            "    \"s\": \"c72ab51324854a4aa84148862b435fcfc77dac135740c3c6857f7b2fba04b781\"\n"
+            "    \"s\": \"c72ab51324754a4aa84148862b435fcfc77dac135740c3c6857f7b2fba04b781\"\n"
             "  },\n"
             "  {\n"
             "    \"s\": \"c73e72505fa96c333e42c34f8dd8a63b8df15f9c363adc2f22e6fa9a5615822d\"\n"
@@ -1189,4 +1189,4 @@ std::string LoadInvalidSerials()
     return str;
 }
 
-#endif //ULTRAGATE_INVALID_SERIALS_JSON_H
+#endif //ULG_INVALID_SERIALS_JSON_H

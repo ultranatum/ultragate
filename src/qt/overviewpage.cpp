@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,6 @@
 #include "guiutil.h"
 #include "init.h"
 #include "obfuscation.h"
-#include "obfuscationconfig.h"
 #include "optionsmodel.h"
 #include "transactionfilterproxy.h"
 #include "transactionrecord.h"
@@ -59,17 +58,6 @@ public:
         qint64 amount = index.data(TransactionTableModel::AmountRole).toLongLong();
         bool confirmed = index.data(TransactionTableModel::ConfirmedRole).toBool();
 
-        // Check transaction status
-        int nStatus = index.data(TransactionTableModel::StatusRole).toInt();
-        bool fConflicted = false;
-        if (nStatus == TransactionStatus::Conflicted || nStatus == TransactionStatus::NotAccepted) {
-            fConflicted = true; // Most probably orphaned, but could have other reasons as well
-        }
-        bool fImmature = false;
-        if (nStatus == TransactionStatus::Immature) {
-            fImmature = true;
-        }
-
         QVariant value = index.data(Qt::ForegroundRole);
         QColor foreground = COLOR_BLACK;
         if (value.canConvert<QBrush>()) {
@@ -87,15 +75,9 @@ public:
             iconWatchonly.paint(painter, watchonlyRect);
         }
 
-        if(fConflicted) { // No need to check anything else for conflicted transactions
-            foreground = COLOR_CONFLICTED;
-        } else if (!confirmed || fImmature) {
-            foreground = COLOR_UNCONFIRMED;
-        } else if (amount < 0) {
+        if (amount < 0)
             foreground = COLOR_NEGATIVE;
-        } else {
-            foreground = COLOR_BLACK;
-        }
+
         painter->setPen(foreground);
         QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true, BitcoinUnits::separatorAlways);
         if (!confirmed) {
@@ -208,16 +190,18 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nLockedBalance = pwalletMain->GetLockedCoins();
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
+
     // ULG Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
     CAmount ulgAvailableBalance = balance - immatureBalance - nLockedBalance;
 	
     // ULG Watch-Only Balance
-    CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;    
+    CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
-	
+
     // zULG Balance
     // CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
+
     // Percentages
     // ulg QString szPercentage = "";
     // ulg QString sPercentage = "";
@@ -269,33 +253,46 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     // Only show most balances if they are non-zero for the sake of simplicity
     QSettings settings;
     bool settingShowAllBalances = !settings.value("fHideZeroBalances").toBool();
+
     // bool showSumAvailable = settingShowAllBalances || sumTotalBalance != availableTotalBalance;
     // ui->labelBalanceTextz->setVisible(showSumAvailable);
     // ui->labelBalancez->setVisible(showSumAvailable);
-    bool showULGAvailable = settingShowAllBalances || ulgAvailableBalance != nTotalBalance;
-    bool showWatchOnlyULGAvailable = watchOnlyBalance != nTotalWatchBalance;
-    bool showULGPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyULGPending = watchUnconfBalance != 0;
-    bool showULGLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyULGLocked = nWatchOnlyLockedBalance != 0;
-    bool showImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = watchImmatureBalance != 0;
+
     bool showWatchOnly = nTotalWatchBalance != 0;
-    ui->labelBalance->setVisible(showULGAvailable || showWatchOnlyULGAvailable);
+
+    // ULG Available
+    bool showULGAvailable = settingShowAllBalances || ulgAvailableBalance != nTotalBalance;
+    bool showWatchOnlyULGAvailable = showULGAvailable || nAvailableWatchBalance != nTotalWatchBalance;
     ui->labelBalanceText->setVisible(showULGAvailable || showWatchOnlyULGAvailable);
-    ui->labelWatchAvailable->setVisible(showULGAvailable && showWatchOnly);
-    ui->labelUnconfirmed->setVisible(showULGPending || showWatchOnlyULGPending);
+    ui->labelBalance->setVisible(showULGAvailable || showWatchOnlyULGAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyULGAvailable && showWatchOnly);
+
+    // ULG Pending
+    bool showULGPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyULGPending = showULGPending || watchUnconfBalance != 0;
     ui->labelPendingText->setVisible(showULGPending || showWatchOnlyULGPending);
-    ui->labelWatchPending->setVisible(showULGPending && showWatchOnly);
-    ui->labelLockedBalance->setVisible(showULGLocked || showWatchOnlyULGLocked);
+    ui->labelUnconfirmed->setVisible(showULGPending || showWatchOnlyULGPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyULGPending && showWatchOnly);
+
+    // ULG Immature
+    bool showULGImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showULGImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showULGImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showULGImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
+
+    // ULG Locked
+    bool showULGLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyULGLocked = showULGLocked || nWatchOnlyLockedBalance != 0;
     ui->labelLockedBalanceText->setVisible(showULGLocked || showWatchOnlyULGLocked);
-    ui->labelWatchLocked->setVisible(showULGLocked && showWatchOnly);
-    ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
-    ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
-    ui->labelWatchImmature->setVisible(showImmature && showWatchOnly); // show watch-only immature balance
+    ui->labelLockedBalance->setVisible(showULGLocked || showWatchOnlyULGLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyULGLocked && showWatchOnly);
+
+    // zULG
     bool showzULGAvailable = settingShowAllBalances;
     bool showzULGUnconfirmed = settingShowAllBalances;
     bool showzULGImmature = settingShowAllBalances;
+
     // ulg ui->labelzBalanceMature->setVisible(showzULGAvailable);
     // ulg ui->labelzBalanceMatureText->setVisible(showzULGAvailable);
     // ulg ui->labelzBalanceUnconfirmed->setVisible(showzULGUnconfirmed);
@@ -363,13 +360,14 @@ void OverviewPage::setWalletModel(WalletModel* model)
 
         // Keep up to date with wallet
         setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(),
-                   model->getZerocoinBalance(), model->getUnconfirmedZerocoinBalance(), model->getImmatureZerocoinBalance(), 
+                   model->getZerocoinBalance(), model->getUnconfirmedZerocoinBalance(), model->getImmatureZerocoinBalance(),
                    model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
-        connect(model, SIGNAL(balanceChanged(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)), this, 
+        connect(model, SIGNAL(balanceChanged(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)), this,
                          SLOT(setBalance(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)));
 
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
         connect(model->getOptionsModel(), SIGNAL(hideZeroBalancesChanged(bool)), this, SLOT(updateDisplayUnit()));
+        connect(model->getOptionsModel(), SIGNAL(hideOrphansChanged(bool)), this, SLOT(hideOrphans(bool)));
 
         updateWatchOnlyLabels(model->haveWatchOnly());
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
@@ -377,6 +375,10 @@ void OverviewPage::setWalletModel(WalletModel* model)
 
     // update the display unit, to not use the default ("ULG")
     updateDisplayUnit();
+
+    // Hide orphans
+    QSettings settings;
+    hideOrphans(settings.value("fHideOrphans", false).toBool());
 }
 
 void OverviewPage::updateDisplayUnit()
@@ -404,4 +406,10 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
 {
     ui->labelWalletStatus->setVisible(fShow);
     ui->labelTransactionsStatus->setVisible(fShow);
+}
+
+void OverviewPage::hideOrphans(bool fHide)
+{
+    if (filter)
+        filter->setHideOrphans(fHide);
 }

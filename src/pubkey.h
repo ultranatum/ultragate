@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ULTRAGATE_PUBKEY_H
-#define ULTRAGATE_PUBKEY_H
+#ifndef ULG_PUBKEY_H
+#define ULG_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -204,11 +204,6 @@ public:
         return std::vector<unsigned char>(vch, vch + size());
     }
 
-    std::string GetHex()
-    {
-        std::string my_std_string(reinterpret_cast<const char*>(vch), 65);
-        return my_std_string;
-    }
 };
 
 struct CExtPubKey {
@@ -268,4 +263,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // ULTRAGATE_PUBKEY_H
+#endif // ULG_PUBKEY_H

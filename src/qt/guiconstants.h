@@ -35,7 +35,10 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 #define COLOR_BLACK QColor(51, 51, 51)
 /* Transaction list -- TX status decoration - conflicted */
 #define COLOR_CONFLICTED QColor(255, 0, 0)
-
+/* Transaction list -- TX status decoration - orphan (Light Gray #D3D3D3) */
+#define COLOR_ORPHAN QColor(211, 211, 211)
+/* Transaction list -- TX status decoration - stake (#f9bf00 (Amber)) */
+#define COLOR_STAKE QColor(249, 191, 0)
 /* Tooltips longer than this (in characters) are converted into rich text,
    so that they can be word-wrapped.
  */
@@ -51,7 +54,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Ultragate"
-#define QAPP_ORG_DOMAIN "ultragate.org"
+#define QAPP_ORG_DOMAIN "ultragate.net"
 #define QAPP_APP_NAME_DEFAULT "Ultragate-Qt"
 #define QAPP_APP_NAME_TESTNET "Ultragate-Qt-testnet"
 
