@@ -57,11 +57,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (10000, uint256("0x86cc0a64018aed29311f9fa0bf9d141dc3cdfa02973d2d36eaa4482a7d2021c2"))
     (250000, uint256("0x3ca36efdd0da0affd41b98cfd7c4b226509bf49b32df520ba81dfbb796a16951"))
     (500000, uint256("0xd3cf9b2d387a033ada185fa35ac55ffa5c7753cdddf8f93a9f318a7f7e4baebe"))
-    (692120, uint256("0x97e6c35253b7a16edd1e60140593969dc13680b4378e7e1a5171b00478017944"));
+    (692120, uint256("0x97e6c35253b7a16edd1e60140593969dc13680b4378e7e1a5171b00478017944"))
+    (973000, uint256("0x979515e12d1128cb4505ecaf51067589fd9934003b7b25efeb90903fe0d0ddf5"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1594705496, // * UNIX timestamp of last checkpoint block
-    1489134,    // * total number of transactions between genesis and last checkpoint
+    1612329352, // * UNIX timestamp of last checkpoint block
+    2067445,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -199,11 +200,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x2040b0abc8d4a76241d511d9a913f363770304d18617a599e839869aeef7061b"));
 
         vSeeds.push_back(CDNSSeedData("ultragate.space", "dnsseed.ultragate.space")); // DNS seed
-		vSeeds.push_back(CDNSSeedData("seed1.ultragate.space", "seed1.ultragate.space")); // Single node address
+	vSeeds.push_back(CDNSSeedData("seed1.ultragate.space", "seed1.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed2.ultragate.space", "seed2.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed3.ultragate.space", "seed3.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed4.ultragate.space", "seed4.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed5.ultragate.space", "seed5.ultragate.space")); // Single node address
+        vSeeds.push_back(CDNSSeedData("seed6.ultragate.space", "seed6.ultragate.space")); // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 38);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 98);
