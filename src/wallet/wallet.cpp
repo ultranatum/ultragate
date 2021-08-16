@@ -1801,7 +1801,10 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
             if (nAmountSelected + out.tx->vout[out.i].nValue > nTargetAmount)
                 continue;
 
-            if (blockHeight >= Params().MinimumStakingAmountBlockStart() && out.tx->vout[out.i].nValue < Params().MinimumStakingAmount())
+            if (blockHeight >= Params().MinimumStakingAmountBlockStart() && blockHeight < Params().MinimumStakingAmountBlockStart2() && out.tx->vout[out.i].nValue < Params().MinimumStakingAmount())
+                continue;
+
+            if (blockHeight >= Params().MinimumStakingAmountBlockStart2() && out.tx->vout[out.i].nValue < Params().MinimumStakingAmount2())
                 continue;
 
             if (out.tx->vin[0].IsZerocoinSpend() && !out.tx->IsInMainChain())

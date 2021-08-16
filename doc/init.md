@@ -129,13 +129,13 @@ setting the ULTRAGATED and FLAGS environment variables in the file
 
 ### macOS
 
-Copy org.ultragate.ultragated.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.ultragate.ultragated.plist`.
+Copy net.ultragate.ultragated.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/net.ultragate.ultragated.plist`.
 
 This Launch Agent will cause ultragated to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run ultragated as the current user.
-You will need to modify org.ultragate.ultragated.plist if you intend to use it as a
+You will need to modify net.ultragate.ultragated.plist if you intend to use it as a
 Launch Daemon with a dedicated ultragate user.
 
 Auto-respawn

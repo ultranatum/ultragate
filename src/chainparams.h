@@ -145,7 +145,9 @@ public:
     int Zerocoin_Block_Double_Accumulated() const { return nBlockDoubleAccumulated; }
     CAmount InvalidAmountFiltered() const { return nInvalidAmountFiltered; };
     CAmount MinimumStakingAmount() const { return minimumStakingAmount; }
+    CAmount MinimumStakingAmount2() const { return minimumStakingAmount2; }
     int MinimumStakingAmountBlockStart() const { return minimumStakingAmountBlockStart; }
+    int MinimumStakingAmountBlockStart2() const { return minimumStakingAmountBlockStart2; }
 
     int Zerocoin_Block_Public_Spend_Enabled() const { return nPublicZCSpends; }
 
@@ -224,6 +226,7 @@ protected:
     int nFakeSerialBlockheightEnd = 0;
     CAmount nSupplyBeforeFakeSerial = 0;
     CAmount minimumStakingAmount;
+    CAmount minimumStakingAmount2;
     int minimumStakingAmountBlockStart;
 };
 

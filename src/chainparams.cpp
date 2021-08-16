@@ -200,7 +200,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x2040b0abc8d4a76241d511d9a913f363770304d18617a599e839869aeef7061b"));
 
         vSeeds.push_back(CDNSSeedData("ultragate.space", "dnsseed.ultragate.space")); // DNS seed
-	vSeeds.push_back(CDNSSeedData("seed1.ultragate.space", "seed1.ultragate.space")); // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.ultragate.space", "seed1.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed2.ultragate.space", "seed2.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed3.ultragate.space", "seed3.ultragate.space")); // Single node address
         vSeeds.push_back(CDNSSeedData("seed4.ultragate.space", "seed4.ultragate.space")); // Single node address
@@ -253,6 +253,8 @@ public:
 
         minimumStakingAmount = 50 * COIN;
         minimumStakingAmountBlockStart = 701000;
+        minimumStakingAmount2 = 3 * COIN;
+        minimumStakingAmountBlockStart2 = 1256180;
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const

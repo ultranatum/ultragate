@@ -5,7 +5,7 @@ Upstart: ultragated.conf
 OpenRC:  ultragated.openrc
          ultragated.openrcconf
 CentOS:  ultragated.init
-macOS:    org.ultragate.ultragated.plist
+macOS:    net.ultragate.ultragated.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

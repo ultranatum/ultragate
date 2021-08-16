@@ -2370,7 +2370,9 @@ bool CheckInputs(const CTransaction& tx, CValidationState& state, const CCoinsVi
             if (tx.IsCoinStake()) {
                 CAmount inputSize = coins->vout[prevout.n].nValue;
 
-                if(pindexPrev->nHeight >= Params().MinimumStakingAmountBlockStart() && inputSize < Params().MinimumStakingAmount()) {
+                if (pindexPrev->nHeight >= Params().MinimumStakingAmountBlockStart() && pindexPrev->nHeight < Params().MinimumStakingAmountBlockStart2() && inputSize < Params().MinimumStakingAmount()) {
+                    return state.Invalid(error("CheckInputs(): tried to stake with smaller than minimum amount"));
+                } else if (pindexPrev->nHeight >= Params().MinimumStakingAmountBlockStart2() && inputSize < Params().MinimumStakingAmount2()) {
                     return state.Invalid(error("CheckInputs(): tried to stake with smaller than minimum amount"));
                 }
             }
@@ -6856,13 +6858,13 @@ bool static ProcessMessage(CNode* pfrom, std::string strCommand, CDataStream& vR
 //       it was the one which was commented out
 int ActiveProtocol()
 {
-    // SPORK_14 is used for 70917 (v3.4+)
-    if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
-            return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
-
-    // SPORK_15 was used for 70916 (v3.3+), commented out now.
-    //if (IsSporkActive(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
+    // SPORK_14 is used for 70931 (v1.1+)
+    // if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
     //        return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
+
+    // SPORK_15 was used for 70916 (v1.2+), commented out now.
+    if (IsSporkActive(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
+            return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
 
     return MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT;
 }
