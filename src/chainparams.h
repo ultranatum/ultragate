@@ -228,6 +228,7 @@ protected:
     CAmount minimumStakingAmount;
     CAmount minimumStakingAmount2;
     int minimumStakingAmountBlockStart;
+    int minimumStakingAmountBlockStart2;
 };
 
 /**
